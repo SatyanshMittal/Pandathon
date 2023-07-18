@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .gold {
+        color: #BABC4B;
+    }
+
+    .rose {
+        color: #C9A8A8;
+    }
+    .header-color {
+        color: rgba(232, 215, 215, 0.79);
+    }
+
+    
+        .smimg {
+    
+            background-image: url(/build/img/iPhone\ 14\ Pro\ -\ 1.png);
+           
+
+        }
+
+        .pimg {
+            background-image: url(/build/img/Desktop\ -\ 12.png);
+        } 
+    
+}
