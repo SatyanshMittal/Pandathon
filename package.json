@@ -3,12 +3,12 @@
     "prettier": "npx prettier --write **/*.html",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
   },
-
   "description": "",
   "devDependencies": {
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.3.0"
+  },
+  "dependencies": {
+    "vite": "^4.4.9"
   }
-
-  
 }
